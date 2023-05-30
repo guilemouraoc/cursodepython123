@@ -1,0 +1,9 @@
+usuario = input("Digite seu usuário: ")
+senha = input("Digite sua senha: ")
+
+while usuario == senha:
+    usuario = input("digite seu usuário: ")
+    senha = input("digite sua senha: ")
+
+if usuario != senha:
+    print("Você foi logado no sistema ")
