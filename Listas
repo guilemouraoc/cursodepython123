@@ -1,0 +1,10 @@
+//Faça um programa que receba 5 valores e Adicionar esses valores na lista e depois mostrar a quantidade de valores armazenado na lista e imprimir a lista
+
+
+lista1=[]
+for i in range (0,5):
+    x = int(input("Digite um valor: "))
+    lista1.append(x)
+
+print(len(lista1))
+print(lista1)
